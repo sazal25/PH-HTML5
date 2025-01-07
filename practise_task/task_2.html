@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback form</title>
+  <style>
+    form > label{
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    section> label{
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    label > select{
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .Thanks{
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2>We Value Your Feedback!</h2>
+  </header>
+  <main>
+    <form action="">
+      <section>
+      <label for="Name">Name
+        <input type="text" name="Name" id="Name" placeholder="Your Name">
+      </label>
+
+      <label for="Email">Email
+        <input type="email" name="Email" id="Email" placeholder="Your Email">
+      </label>
+
+      <label for="role">Role
+        <select name="role" id="role">
+          <option value="paticipate">paticipate</option>
+          <option value="oudience">oudience</option>
+          <option value="judge">judge</option>
+        </select>
+      </label>
+      </section>
+
+      <section>
+        <label for="">How would you rate the event overall?
+          <select name="" id="">
+            <option value="Good">Good</option>
+            <option value="Excellent">Excellent</option>
+            <option value="Average">Average</option>
+          </select>
+        </label>
+
+        <label for="">What did you enjoy the most about the contest? </label>
+        <textarea name="" id="" cols="20" rows="5" placeholder="Share your thoughts..."></textarea>
+
+        <label for="">How can we improve next time?</label>
+        <textarea name="" id="" placeholder="Your suggestions..."></textarea>
+
+        <label for="">Would you participate again?
+          <select name="" id="">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </label>
+      </section>
+
+      <input type="reset" value="Reset">
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+  <footer>
+    <div class="Thanks">
+      <small><p>&copf;2025 Thank you for helping us improve our storytelling contest!</p></small>
+    </div>
+  </footer>
+</body>
+
+</html>
